@@ -1,0 +1,40 @@
+.apresentacao {
+    width: 400px;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apresentacao img {
+    width: 35%;
+    border-radius: 50%;
+}
+
+.dados {
+    width: 80%;
+    text-align: center;
+}
+
+.dados .nome {
+    font-size: 22px;
+}
+
+.dados p {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+.links i {
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+i:hover {
+    transition: 200ms;
+    color: whitesmoke;
+}
